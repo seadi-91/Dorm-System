@@ -10,3 +10,72 @@
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;*/
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f3ec;
+  border: 1px solid rgba(170, 59, 255, 0.5);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  height: 100vh;
+
+
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgba(170, 59, 255, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid rgba(170, 59, 255, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  align-items: center;
+  height: 400px;
+
+}
+
+.login-form h2 {
+  color: #2e0459;
+  margin-bottom: 10px;
+  font-size: 40px;
+
+}
+
+.login-form input {
+  width: 350px;
+  padding: 15px;
+  border: 1px solid rgba(170, 59, 255, 0.5);
+  border-radius: 4px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #f4f3ec;
+}
+
+.Mybutton {
+  padding: 10px 20px;
+  background-color: #5405a3;
+  margin: 10px 0;
+  color: #fff;
+  border: none;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Mybutton:hover {
+  background-color: #470291;
+}
+
+.gorgetpassword {
+  color: #5405a3;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+}

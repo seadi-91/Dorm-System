@@ -1,23 +1,31 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function LoginPage() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
+    const navigate = useNavigate();
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Username:", username);
-        console.log("Password:", password);
+
+        if (username === "procter" && password === "procter123") {
+            //  navigate("/procter-dashboard");
+            alert("valid username or password");
+        } else {
+            alert("Invalid username or password");
+        }
     };
 
     return (
         <div className='container'>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className='login-form'>
                 <h2>Login Page</h2>
 
                 <input
                     type="text"
-                    placeholder="Enter Full Name"
+                    placeholder="Enter Username"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                 />
@@ -29,7 +37,8 @@ function LoginPage() {
                     onChange={(e) => setPassword(e.target.value)}
                 />
 
-                <button type="submit">Login</button>
+                <button type="submit" className='Mybutton'>Login</button>
+                <a href="#" className='gorgetpassword'>Forget Password?</a>
             </form>
         </div>
     );
