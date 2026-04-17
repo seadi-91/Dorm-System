@@ -1,0 +1,55 @@
+/* Smart Tech Theme - Slate/Indigo Palette */
+
+.bg-primary { background-color: #f1f5f9; } /* slate-100 */
+.bg-secondary { background-color: #e2e8f0; } /* slate-200 */
+.bg-accent { background-color: #6366f1; } /* indigo-500 */
+.bg-dark { background-color: #1e293b; } /* slate-800 */
+
+.text-primary { color: #64748b; } /* slate-500 */
+.text-accent { color: #6366f1; } /* indigo-500 */
+.text-light { color: #f1f5f9; } /* slate-100 */
+
+.border-primary { border-color: #cbd5e1; } /* slate-300 */
+
+.btn-primary {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #4f46e5; /* indigo-600 */
+}
+
+.btn-secondary {
+  background-color: #e2e8f0;
+  color: #1e293b;
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  border: 1px solid #cbd5e1;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.label {
+  color: #374151; /* gray-700 */
+  font-weight: 500;
+}
